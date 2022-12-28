@@ -71,5 +71,5 @@ def insert_row_snowflake(new_fruit):
 fruit_insert = streamlit.text_input('What fruit would you like to add?')
 if streamlit.button('Insert new fruit'):
     string_from_function = insert_row_snowflake(fruit_insert)
-streamlit.text(string_from_function)
+    streamlit.text(string_from_function)
 
